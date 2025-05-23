@@ -30,9 +30,6 @@ public class Events implements Serializable {
         this.organiserUID = organiserUID;
     }
 
-    public Events() {
-    }
-
     public String getName() {
         return name;
     }
