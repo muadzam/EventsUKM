@@ -1,4 +1,4 @@
-# EventsUKM 📅🇲🇾
+# EventsUKM 🇲🇾
 
 **EventsUKM** is an Android application built for Universiti Kebangsaan Malaysia (UKM) students to register and manage campus events. The app leverages Firebase Realtime Database for data storage and management.
 
