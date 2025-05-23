@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Events@UKM</string>
+    <string-array name="college_options">
+        <item>Kolej Dato’ Onn</item>
+        <item>Kolej Aminuddin Baki</item>
+        <item>Kolej Ungku Omar</item>
+        <item>Kolej Burhanuddin Helmi</item>
+        <item>Kolej Ibrahim Yaakub</item>
+        <item>Kolej Rahim Kajai</item>
+        <item>Kolej Ibu Zain</item>
+        <item>Kolej Keris Mas</item>
+        <item>Kolej Pendeta Zaba</item>
+        <item>Kolej Tun Hussien Onn</item>
+        <item>Tiada</item>
+        <!-- Add more colleges as needed -->
+    </string-array>
+
+    <string-array name="faculty_options">
+        <item>Fakulti Sains Sosial dan Kemanusiaan</item>
+        <item>Fakulti Undang-Undang</item>
+        <item>Fakulti Kejuruteraan dan Alam Bina</item>
+        <item>Fakulti Sains dan Teknologi</item>
+        <item>Fakulti Pendidikan</item>
+        <item>Fakulti Ekonomi dan Pengurusan</item>
+        <item>Fakulti Teknologi dan Sains Maklumat</item>
+        <item>Fakulti Pengajian Islam</item>
+        <item>Pusat Pengajian Citra Universiti</item>
+        <item>Tiada</item>
+        <!-- Add more faculties as needed -->
+    </string-array>
+
+    <string-array name="event_options">
+        <item>Baktisiswa</item>
+        <item>Debat </item>
+        <item>Festival</item>
+        <item>Forum</item>
+        <item>Jamuan Makan Malam</item>
+        <item>Keagamaan</item>
+        <item>Kebudayaan / Kesenian</item>
+        <item>Keusahawanan</item>
+        <item>Latihan / Kursus / Bengkel</item>
+        <item>Lawatan Sambil Belajar</item>
+        <item>Penyelidikan</item>
+        <item>Pertandingan</item>
+        <item>Perjumpaan / Perhimpunan</item>
+        <item>Eksplorasi</item>
+        <item>Seminar</item>
+        <item>Sukan</item>
+        <!-- Add more faculties as needed -->
+    </string-array>
+
+    <string-array name="date_array">
+        <item>All</item>
+    </string-array>
+    <string-array name="type_array">
+        <item>All</item>
+    </string-array>
+
+</resources>

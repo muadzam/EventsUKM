@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alata</item>
+        <item>@font/covered_by_your_grace</item>
+        <item>@font/montserrat</item>
+        <item>@font/montserrat_black</item>
+        <item>@font/montserrat_bold</item>
+        <item>@font/montserrat_medium</item>
+        <item>@font/montserrat_semibold</item>
+    </array>
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <!-- Title Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- ImageButton for Search -->
+        <ImageButton
+            android:id="@+id/btn_search"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#283478"
+            android:src="@drawable/baseline_search_24" />
+
+        <!-- Title TextView -->
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="3"
+            android:background="#283478"
+            android:fontFamily="@font/montserrat_semibold"
+            android:gravity="center"
+            android:text="EVENTS@UKM"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <!-- ImageButton for Profile -->
+        <ImageButton
+            android:id="@+id/btn_profile"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#283478"
+            android:src="@drawable/baseline_face_6_24" />
+    </LinearLayout>
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Image Header -->
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ukm"
+                app:srcCompat="@drawable/ukm" />
+
+            <!-- Category Images -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_category1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/category1" />
+
+                <ImageView
+                    android:id="@+id/img_category2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/category2" />
+            </LinearLayout>
+
+            <!-- Program Title -->
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Program"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <!-- RecyclerView for Programs -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/program_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="290dp"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal"
+                tools:listitem="@layout/homeprogramentry" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- ImageButton for Signout -->
+        <ImageButton
+            android:id="@+id/btn_signout"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#283478"
+            android:src="@drawable/logout" />
+
+        <!-- ImageButton for Ticket -->
+        <ImageButton
+            android:id="@+id/btn_ticket"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#283478"
+            android:src="@drawable/ticket" />
+    </LinearLayout>
+
+</LinearLayout>

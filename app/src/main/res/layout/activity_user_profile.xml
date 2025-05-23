@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.testing.OrderSummary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_back_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#283478"
+                android:src="@drawable/baseline_keyboard_backspace_24" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="#283478"
+                android:fontFamily="@font/montserrat_black"
+                android:gravity="center"
+                android:text="EVENTS@UKM"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <ImageButton
+                android:id="@+id/btn_none"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#283478"
+                android:src="@drawable/ic_android_black_24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="PROFIL DIRI"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/img_profilepicture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/profile"
+                app:srcCompat="@drawable/profile" />
+
+            <TextView
+                android:id="@+id/tv_matrix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_black"
+                android:text="NOMBOR MATRIK"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#283478"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Profil Pengguna"
+                android:textColor="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#283478"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Name"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="#283478"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Email"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tv_college"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#283478"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Kolej Pendeta Zaaba"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tv_faculty"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="#283478"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Fakulti Sains Dan Teknolgi Maklumat"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tv_phone"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#283478"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="013-333333"
+                android:textColor="#FFFFFF" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btn_logout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#D81C32"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:text="Log Keluar"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.668" />
+
+                <TextView
+                    android:id="@+id/tv_manageevent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="Lihat Peserta"
+                    android:textColor="#283478"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.316" />
+
+                <TextView
+                    android:id="@+id/tv_editprofile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="259dp"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="Ubah Profil Pengguna"
+                    android:textColor="#283478"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.191" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="200dp"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:text="Pengurusan"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.026" />
+
+                <TextView
+                    android:id="@+id/tv_userrole"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Role"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btn_logout" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

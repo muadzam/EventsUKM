@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1068921902095",
+    "project_id": "eventsukm",
+    "storage_bucket": "eventsukm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068921902095:android:7c002277a1735be70a7f7a",
+        "android_client_info": {
+          "package_name": "com.example.eventsukm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAekZ9Y7Iuc7rwDBXSp2jkH-Oh37zQ5pSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068921902095:android:dd8a9d44211036bc0a7f7a",
+        "android_client_info": {
+          "package_name": "com.example.eventukm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAekZ9Y7Iuc7rwDBXSp2jkH-Oh37zQ5pSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
